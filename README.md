@@ -51,13 +51,13 @@ $ curl https://pyenv.run | bash
 
 Add this to your shell config (~/.bashrc, ~/.zshrc, etc.):
 
-$ export PATH="$HOME/.pyenv/bin:$PATH"
+export PATH="$HOME/.pyenv/bin:$PATH"
 
-$ eval "$(pyenv init --path)"
+eval "$(pyenv init --path)"
 
-$ eval "$(pyenv init -)"
+eval "$(pyenv init -)"
 
-$ eval "$(pyenv virtualenv-init -)"
+eval "$(pyenv virtualenv-init -)"
 
 Restart your shell and install Python version:
 
